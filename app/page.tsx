@@ -47,6 +47,21 @@ export default function Home() {
           View Privacy Policy
         </Link>
         <Link 
+          href="/support"
+          style={{
+            display: 'inline-block',
+            padding: '0.75rem 2rem',
+            backgroundColor: '#8b5cf6',
+            color: 'white',
+            borderRadius: '0.5rem',
+            fontSize: '1rem',
+            fontWeight: '500',
+            transition: 'background-color 0.2s'
+          }}
+        >
+          Support
+        </Link>
+        <Link 
           href="/contact-us"
           style={{
             display: 'inline-block',
